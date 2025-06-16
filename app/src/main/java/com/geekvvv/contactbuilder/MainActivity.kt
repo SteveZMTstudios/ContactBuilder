@@ -61,13 +61,13 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-        infoText.text = "批量生成的手机号都为10位\n\n" +
+        infoText.text = "批量生成的手机号为随机生成的11位数字\n\n" +
                 "务必在系统分身或备用机上测试!!!"
         actionButton.clipToOutline = true
         moreActionButton.clipToOutline = true
 
         footInfo.apply {
-            text = Html.fromHtml("仅供娱乐  by <a href=\"https://blog.lagee.gay/about\">酷安小黄</a>", 0)
+            text = Html.fromHtml("仅供娱乐  by <a href=\"https://blog.lagee.gay/about\">酷安小黄</a>，史蒂夫ZMT修改", 0)
             movementMethod = LinkMovementMethod.getInstance()
         }
 
