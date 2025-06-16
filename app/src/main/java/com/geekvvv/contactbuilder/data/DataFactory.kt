@@ -129,7 +129,7 @@ object DataFactory {
         values.clear()
     }
 
-    fun getRandomPhoneNumber(): Int {
+    fun getRandomPhoneNumber(): Long {
         return (13300000000..19999999999).random()
     }
 
